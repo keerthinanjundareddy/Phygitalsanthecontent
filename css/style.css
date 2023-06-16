@@ -100,9 +100,9 @@ body.de_light,.de_light{
 	padding:0 5px;
 }
 
-#wrapper{
+/* #wrapper{
 overflow:hidden;
-}
+} */
 
 .de-navbar-left #wrapper{
 overflow:visible;
@@ -145,6 +145,7 @@ overflow:visible;
 	header .info .social.column{
 	border:none;
 	}
+
 	header .info .social i{
 	color:#fff;
 	font-size:14px;
@@ -5138,8 +5139,7 @@ width:100%;
   width:100%;
 }
 
-	margin:5px;
-}
+
 
 /* clear fix */
 .grid:after {
@@ -5467,6 +5467,8 @@ color:#606060;
 .text-light .wm{
 	color:rgba(255,255,255,.05);
 }
+
+
 .demo-icon-wrap{
 	margin-bottom:30px;
 }
@@ -7633,8 +7635,8 @@ display:table;
 	.countdown-s1 .countdown-show4 .countdown-section {
 		width: 18vw;
 	}
-	
-	
+
+}
 	/* -------------------------------------------------- 
 	design for 480px
 	/* -------------------------------------------------- */
@@ -7667,3 +7669,337 @@ display:table;
 		display:none;
 	}
 	}
+
+
+	/* my own css */
+	/* h1 {
+		margin: 0;
+		line-height: 2;
+		text-align: center;
+	  }
+	  h2 {
+		margin: 0 0 .5em;
+		font-weight: normal;
+	  }
+	  input {
+		position: absolute;
+		opacity: 0;
+		z-index: -1;
+	  }
+	  .row {
+		display:flex;
+		.col {
+		  flex:1;
+		  .col:last-child {
+			margin-left: 1em;
+		  }
+		}
+	  }
+
+	  .tabs {
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+	  }
+	  .tab {
+		width: 100%;
+		color: white;
+		overflow: hidden;
+		.tab-label {
+		  display: flex;
+		  justify-content: space-between;
+		  padding: 1em;
+		  background:#2c3e50;
+		  font-weight: bold;
+		  cursor: pointer;
+		  
+		  .tab:hover {
+			background-color: darken(#2c3e50, 10%);
+		  }
+		  .tab::after {
+			content: "\276F";
+			width: 1em;
+			height: 1em;
+			text-align: center;
+			transition: all .35s;
+		  }
+		}
+		.tab-content {
+		  max-height: 0;
+		  padding: 0 1em;
+		  color: #2c3e50;
+		  background: white;
+		  transition: all .35s;
+		}
+		.tab-close {
+		  display: flex;
+		  justify-content: flex-end;
+		  padding: 1em;
+		  font-size: 0.75em;
+		  background: #2c3e50;
+		  cursor: pointer;
+		  .tab-close:hover {
+			background-color: darken(#2c3e50, 10%);
+		  }
+		}
+	  }
+	  
+	 
+	  input:checked {
+		+ .tab-label {
+		  background: darken(#2c3e50, 10%);
+		  &::after {
+			transform: rotate(90deg);
+		  }
+		}
+		~ .tab-content {
+		  max-height: 100vh;
+		  padding: 1em;
+		}
+	  }
+	   */
+
+	   /* input {
+		position: absolute;
+		opacity: 0;
+		z-index: -1;
+	  }
+	.row {
+	  display: flex;
+	}
+	 */
+	/* .row .col {
+	  flex: 1;
+	}
+	
+	.row .col:last-child {
+	  margin-left: 1em;
+	}
+	
+	.tabs {
+	  border-radius: 8px;
+	  overflow: hidden;
+	  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+	}
+	 */
+	/* .tab {
+	  width: 100%;
+	  color: white;
+	  overflow: hidden; */
+	  /* margin-bottom: 10px; */
+	/* } */
+	
+	/* .tab-label {
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 1em;
+	  background: #ec167f; ;
+	  font-weight: bold;
+	  cursor: pointer;
+	}
+	
+	.tab-label:hover {
+	  background: darken(#2c3e50, 10%);
+	}
+	
+	.tab-label::after {
+	  content: "\276F";
+	  width: 1em;
+	  height: 1em;
+	  text-align: center;
+	  transition: all 0.35s;
+	}
+	
+	.tab-content {
+	  max-height: 0;
+	  padding: 0 1em;
+	  color: #2c3e50;
+	  background: white;
+	  transition: all 0.35s;
+	}
+	
+	.tab-close {
+	  display: flex;
+	  justify-content: flex-end;
+	  padding: 1em;
+	  font-size: 0.75em;
+	  background: #2c3e50;
+	  cursor: pointer;
+	}
+	
+	input:checked + .tab-label {
+	  background: darken(#2c3e50, 10%);
+	}
+	
+	input:checked + .tab-label::after {
+	  transform: rotate(90deg);
+	}
+	
+	input:checked ~ .tab-content {
+	  max-height: 100vh;
+	  padding: 1em;
+	} */
+	
+	/* Custom Variables */
+	/* :root {
+	  --midnight: #2c3e50;
+	  --clouds: #ecf0f1;
+	}
+	 */
+	/* 2nd own css */
+
+	/* div.c{
+		position: relative;
+		margin:10px;
+		margin-right: 20px;
+		margin-left: 20px;
+	  }
+	  input{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		opacity:0;
+		visibility: 0;
+	  }
+	  h1{
+		background:steelblue;
+		color:white;
+		padding:10px;
+		position: relative;
+	  }
+	  label::before{
+		content:"";
+		display: inline-block;
+		border: 15px solid transparent;
+		border-left:20px solid white;
+	  }
+	  label{
+		cursor: pointer;
+		position: relative;
+		display: flex;
+		align-items: center;
+	  }
+	  div.p{
+		max-height:0px;
+		overflow: hidden;
+		transition:max-height 0.5s;
+		background-color: white;
+		box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+	  }
+	  div.p p {
+		padding:2em;
+	  }
+	  input:checked ~ h1 label::before{
+		border-left:15px solid transparent;
+		border-top:20px solid white;
+		margin-top:12px;
+		margin-right:10px;
+	  }
+	  input:checked ~ h1 ~ div.p{
+		max-height:100px;
+	  }
+	  a{
+		color:steelblue;
+	  }
+ */
+
+	  /* 3rd css */
+
+	  h1{
+		text-align:center;
+	}
+	.listing {
+		position: absolute;
+		opacity: 0;
+		z-index: -1;
+	}
+	.accordion-wrapper {
+		border-radius: 8px;
+		/* overflow: hidden; */
+		box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+		width: 100%;
+		padding: 50px;
+		/* margin:0 auto; */
+		/* margin: 10px; */
+	}
+	.accordion {
+		width: 100%;
+		color: white;
+		overflow: hidden;
+		border-bottom: 1px solid black;
+   /* margin-left: 35px; */
+		/* margin:50px; */
+		/* margin-left: 20px;
+		margin-right: 10px; */
+		/* margin-bottom: 16px; */
+	}
+	.accordion:last-child{
+		margin-bottom: 0;
+	}
+	.accordion-label {
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		padding: 16px;
+		/* background: rgba(4,57,94,.8); */
+		background: #EC1674;
+		font-weight: bold;
+		cursor: pointer;
+		font-size: 20px;
+	}
+	/* .accordion-label:hover {
+		background: rgba(4,57,94,1);
+	} */
+	.accordion-label::after {
+		content: "\276F";
+		width: 16px;
+		height: 16px;
+		text-align: center;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.accordion-content {
+		max-height: 0;
+		padding: 0 16px;
+		color: rgba(4,57,94,1);
+		background: white;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.accordion-content p{
+		margin: 0;
+		color: rgba(4,57,94,.7);
+		font-size: 18px;
+	}
+	.listing:checked + .accordion-label {
+		background: rgba(4,57,94,1);
+	}
+	.listing:checked + .accordion-label::after {
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	.listing:checked ~ .accordion-content {
+		max-height: 100vh;
+		padding: 16px;
+	}
+
+	.down-div{
+		text-align: center;
+		margin:20px;
+		font-size: 20px;
+	}
+
+	.faq{
+		margin:20px;
+		
+
+	}
+
+
+	/* my co css */
+	
+	  /* my slide 2  css */
+
+	  
